@@ -1,0 +1,1 @@
+C:\FlosStuf\Projekte\Maui Projekte\Tasker\Tasker\Tasker.csproj;x64
