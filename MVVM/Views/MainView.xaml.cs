@@ -1,4 +1,4 @@
-using Tasker.MVVM.Models;
+using Tasker.MVVM.ViewModels;
 
 namespace Tasker.MVVM.Views;
 
