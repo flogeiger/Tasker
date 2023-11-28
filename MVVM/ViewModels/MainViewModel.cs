@@ -100,11 +100,11 @@ namespace Tasker.MVVM.ViewModels
 							where t.CategoryId == c.Id
 							select t;
 
-				var completed = from t in MyTasks
+				var completed = from t in tasks
 								where t.Completed == true
 								select t;
 
-				var notCompleted = from t in MyTasks
+				var notCompleted = from t in tasks
 								   where t.Completed == false
 								   select t;
 
