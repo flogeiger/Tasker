@@ -2,6 +2,12 @@
   "version": 3,
   "targets": {
     "net7.0-android33.0": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -207,6 +213,25 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -1939,6 +1964,12 @@
       }
     },
     "net7.0-android33.0/android-arm": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -2144,6 +2175,25 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -3876,6 +3926,12 @@
       }
     },
     "net7.0-android33.0/android-arm64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -4081,6 +4137,25 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -5813,6 +5888,12 @@
       }
     },
     "net7.0-android33.0/android-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -6018,6 +6099,25 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -7750,6 +7850,12 @@
       }
     },
     "net7.0-android33.0/android-x86": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -7955,6 +8061,25 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -9687,6 +9812,12 @@
       }
     },
     "net7.0-android33.0/iossimulator-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -9892,6 +10023,25 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -11624,6 +11774,12 @@
       }
     },
     "net7.0-android33.0/maccatalyst-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -11829,6 +11985,25 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -13561,6 +13736,12 @@
       }
     },
     "net7.0-android33.0/win10-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -13766,6 +13947,25 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -15498,6 +15698,12 @@
       }
     },
     "net7.0-ios16.1": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15690,10 +15896,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-ios16.1/android-arm": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15886,10 +16117,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-ios16.1/android-arm64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16082,10 +16338,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-ios16.1/android-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16278,10 +16559,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-ios16.1/android-x86": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16474,10 +16780,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16670,10 +17001,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16866,10 +17222,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-ios16.1/win10-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17062,10 +17443,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17258,10 +17664,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17454,10 +17885,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17650,10 +18106,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17846,10 +18327,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18042,10 +18548,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18238,10 +18769,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18434,10 +18990,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18631,9 +19212,34 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
       }
     },
     "net7.0-windows10.0.19041": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18954,9 +19560,34 @@
             "rid": "win10-x86"
           }
         }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19248,10 +19879,35 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-windows10.0.19041/android-arm64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19543,10 +20199,35 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19838,10 +20519,35 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-windows10.0.19041/android-x86": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20133,10 +20839,35 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20428,10 +21159,35 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20724,9 +21480,34 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/win10-x64": {
+      "Fody/6.8.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21025,10 +21806,62 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
       }
     }
   },
   "libraries": {
+    "Fody/6.8.0": {
+      "sha512": "hfZ/f8Mezt8aTkgv9nsvFdYoQ809/AqwsJlOGOPYIfBcG2aAIG3v3ex9d8ZqQuFYyMoucjRg4eKy3VleeGodKQ==",
+      "type": "package",
+      "path": "fody/6.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/Fody.targets",
+        "fody.6.8.0.nupkg.sha512",
+        "fody.nuspec",
+        "netclassictask/Fody.dll",
+        "netclassictask/FodyCommon.dll",
+        "netclassictask/FodyHelpers.dll",
+        "netclassictask/FodyIsolated.dll",
+        "netclassictask/Mono.Cecil.Pdb.dll",
+        "netclassictask/Mono.Cecil.Pdb.pdb",
+        "netclassictask/Mono.Cecil.Rocks.dll",
+        "netclassictask/Mono.Cecil.Rocks.pdb",
+        "netclassictask/Mono.Cecil.dll",
+        "netclassictask/Mono.Cecil.pdb",
+        "netstandardtask/Fody.dll",
+        "netstandardtask/FodyCommon.dll",
+        "netstandardtask/FodyHelpers.dll",
+        "netstandardtask/FodyIsolated.dll",
+        "netstandardtask/Mono.Cecil.Pdb.dll",
+        "netstandardtask/Mono.Cecil.Pdb.pdb",
+        "netstandardtask/Mono.Cecil.Rocks.dll",
+        "netstandardtask/Mono.Cecil.Rocks.pdb",
+        "netstandardtask/Mono.Cecil.dll",
+        "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
     "GoogleGson/2.9.1.1": {
       "sha512": "OreKEL2Yx2u8YhRqv0e+j45cEzoe+fyMEzGN+M/vfBDPsIXQcA6lGdHXO07bTrGn6NNwxY67dyIfbyXx3A7cDA==",
       "type": "package",
@@ -22309,6 +23142,27 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "PropertyChanged.Fody/4.1.0": {
+      "sha512": "6v+f9cI8YjnZH2WBHuOqWEAo8DFFNGFIdU8xD3AsL6fhV6Y8oAmVWd7XKk49t8DpeUBwhR/X+97+6Epvek0Y3A==",
+      "type": "package",
+      "path": "propertychanged.fody/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/PropertyChanged.Fody.Analyzer.dll",
+        "build/PropertyChanged.Fody.props",
+        "lib/net40/PropertyChanged.dll",
+        "lib/net40/PropertyChanged.xml",
+        "lib/netstandard2.0/PropertyChanged.dll",
+        "lib/netstandard2.0/PropertyChanged.xml",
+        "lib/netstandard2.1/PropertyChanged.dll",
+        "lib/netstandard2.1/PropertyChanged.xml",
+        "propertychanged.fody.4.1.0.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "weaver/PropertyChanged.Fody.dll",
+        "weaver/PropertyChanged.Fody.xcf"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -24311,6 +25165,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
+      "Fody >= 6.8.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24319,6 +25174,7 @@
       "Microsoft.Maui.Graphics >= 7.0.92",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "PropertyChanged.Fody >= 4.1.0",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -24332,6 +25188,7 @@
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
     "net7.0-ios16.1": [
+      "Fody >= 6.8.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24339,9 +25196,11 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
-      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1"
+      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "PropertyChanged.Fody >= 4.1.0"
     ],
     "net7.0-maccatalyst16.1": [
+      "Fody >= 6.8.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24349,9 +25208,11 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
-      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1"
+      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "PropertyChanged.Fody >= 4.1.0"
     ],
     "net7.0-windows10.0.19041": [
+      "Fody >= 6.8.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24359,7 +25220,8 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.92",
-      "Microsoft.WindowsAppSDK >= 1.2.221209.1"
+      "Microsoft.WindowsAppSDK >= 1.2.221209.1",
+      "PropertyChanged.Fody >= 4.1.0"
     ]
   },
   "packageFolders": {
@@ -24427,6 +25289,12 @@
       "net7.0-android33.0": {
         "targetAlias": "net7.0-android",
         "dependencies": {
+          "Fody": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.8.0, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -24467,6 +25335,10 @@
             "target": "Package",
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
+          },
+          "PropertyChanged.Fody": {
+            "target": "Package",
+            "version": "[4.1.0, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -24595,6 +25467,12 @@
       "net7.0-ios16.1": {
         "targetAlias": "net7.0-ios",
         "dependencies": {
+          "Fody": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.8.0, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -24635,6 +25513,10 @@
             "target": "Package",
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
+          },
+          "PropertyChanged.Fody": {
+            "target": "Package",
+            "version": "[4.1.0, )"
           }
         },
         "imports": [
@@ -24716,6 +25598,12 @@
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
         "dependencies": {
+          "Fody": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.8.0, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -24756,6 +25644,10 @@
             "target": "Package",
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
+          },
+          "PropertyChanged.Fody": {
+            "target": "Package",
+            "version": "[4.1.0, )"
           }
         },
         "imports": [
@@ -24838,6 +25730,12 @@
       "net7.0-windows10.0.19041": {
         "targetAlias": "net7.0-windows10.0.19041.0",
         "dependencies": {
+          "Fody": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.8.0, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -24876,6 +25774,10 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
+          },
+          "PropertyChanged.Fody": {
+            "target": "Package",
+            "version": "[4.1.0, )"
           }
         },
         "imports": [

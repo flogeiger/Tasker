@@ -4,9 +4,16 @@ namespace Tasker.MVVM.Views;
 
 public partial class MainView : ContentPage
 {
+	MainViewModel mainViewModel = new MainViewModel();
 	public MainView()
 	{
 		InitializeComponent();
-		BindingContext = new MainViewModel();
+		BindingContext = mainViewModel;
+	}
+
+	private void checkBox_CheckedChanged(object sender, CheckedChangedEventArgs e)
+	{
+		mainViewModel.UpdateData();
+
 	}
 }

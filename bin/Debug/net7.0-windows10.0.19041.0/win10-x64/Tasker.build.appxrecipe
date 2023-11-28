@@ -37,9 +37,6 @@
     <AppxPackagedFile Include="C:\FlosStuf\Projekte\Maui Projekte\Tasker\Tasker\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Tasker.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\FlosStuf\Projekte\Maui Projekte\Tasker\Tasker\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Tasker.deps.json">
-      <PackagePath>Tasker.deps.json</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fgeiger\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
@@ -685,11 +682,17 @@
     <AppxPackagedFile Include="C:\Users\fgeiger\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fgeiger\.nuget\packages\propertychanged.fody\4.1.0\lib\netstandard2.1\PropertyChanged.dll">
+      <PackagePath>PropertyChanged.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fgeiger\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fgeiger\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\FlosStuf\Projekte\Maui Projekte\Tasker\Tasker\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Tasker.deps.json">
+      <PackagePath>Tasker.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fgeiger\.nuget\packages\microsoft.maui.controls.ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

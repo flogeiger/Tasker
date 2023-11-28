@@ -65,6 +65,12 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -105,6 +111,10 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -233,6 +243,12 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -273,6 +289,10 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             }
           },
           "imports": [
@@ -354,6 +374,12 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -394,6 +420,10 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             }
           },
           "imports": [
@@ -476,6 +506,12 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -514,6 +550,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             }
           },
           "imports": [
