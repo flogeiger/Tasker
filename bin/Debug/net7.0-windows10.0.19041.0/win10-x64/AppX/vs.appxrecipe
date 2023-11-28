@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\FlosStuf\Projekte\Maui Projekte\Tasker\Tasker\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-28T17:48:22.467</Modified>
+      <Modified>2023-11-28T18:46:10.788</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\FlosStuf\Projekte\Maui Projekte\Tasker\Tasker\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Tasker.dll">
       <PackagePath>Tasker.dll</PackagePath>
-      <Modified>2023-11-28T17:48:14.219</Modified>
+      <Modified>2023-11-28T18:46:08.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\FlosStuf\Projekte\Maui Projekte\Tasker\Tasker\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Tasker.exe</PackagePath>
-      <Modified>2023-11-28T17:48:14.332</Modified>
+      <Modified>2023-11-28T18:46:08.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\FlosStuf\Projekte\Maui Projekte\Tasker\Tasker\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Tasker.deps.json">
       <PackagePath>Tasker.deps.json</PackagePath>
