@@ -7,40 +7,74 @@
     <Color x:Key="LightBlue">#8A8BA6</Color>
 
     <Style Class="DarkBlue" TargetType="Label">
-        <Setter Property="TextColor" Value="{StaticResource DarkBlue}"/>
+        <Setter Property="TextColor" Value="{StaticResource DarkBlue}" />
     </Style>
 
     <Style Class="LightBlue" TargetType="Label">
-        <Setter Property="TextColor" Value="{StaticResource LightBlue}"/>
+        <Setter Property="TextColor" Value="{StaticResource LightBlue}" />
     </Style>
-    
+
     <Style Class="Header" TargetType="Label">
-        <Setter Property="FontSize" Value="Title"/>
-        <Setter Property="FontAttributes" Value="Bold"/>
-        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="FontSize" Value="Title" />
+        <Setter Property="VerticalOptions" Value="Center" />
     </Style>
 
     <Style Class="SubHeader" TargetType="Label">
-        <Setter Property="FontSize" Value="Medium"/>
-        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="FontSize" Value="Medium" />
+        <Setter Property="VerticalOptions" Value="Center" />
     </Style>
 
     <Style Class="CardTitle" TargetType="Label">
-        <Setter Property="FontSize" Value="Medium"/>
-        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="FontSize" Value="Medium" />
+        <Setter Property="FontAttributes" Value="Bold" />
     </Style>
-    
+
     <Shadow
         x:Key="shadow"
         Brush="#CFD0D4"
         Opacity="0.6"
         Radius="15"
-        Offset="10,15"/>
+        Offset="10,15" />
 
     <Style TargetType="RoundRectangle">
-        <Setter Property="CornerRadius" Value="10"/>
-        <Setter Property="Fill" Value="White"/>
-        <Setter Property="WidthRequest" Value="200"/>
-        <Setter Property="Shadow" Value="{StaticResource shadow}"/>
+        <Setter Property="CornerRadius" Value="10" />
+        <Setter Property="Fill" Value="White" />
+        <Setter Property="WidthRequest" Value="200" />
+        <Setter Property="Shadow" Value="{StaticResource shadow}" />
     </Style>
+
+
+    <Style x:Key="Task" TargetType="Entry">
+        <Setter Property="FontSize" Value="Large" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="PlaceholderColor" Value="{StaticResource LightBlue}" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+
+    <EllipseGeometry
+        x:Key="circle"
+        Center="50,50"
+        RadiusX="30"
+        RadiusY="30"/>
+
+    <Style x:Key="CircularButton" TargetType="Button">
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="FontSize" Value="Large" />
+        <Setter Property="HeightRequest" Value="100" />
+        <Setter Property="WidthRequest" Value="100" />
+        <Setter Property="VerticalOptions" Value="End" />
+        <Setter Property="HorizontalOptions" Value="End" />
+        <Setter Property="Clip" Value="{StaticResource circle}"/>
+    </Style>
+
+    <Style x:Key="CustomRadioButtonStyle" TargetType="RadioButton">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="BackgroundColor" Value="White"/>
+        <Setter Property="BorderWidth" Value="2"/>
+        <Setter Property="BorderColor" Value="Gray"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="Margin" Value="5"/>
+    </Style>
+
 </ResourceDictionary>

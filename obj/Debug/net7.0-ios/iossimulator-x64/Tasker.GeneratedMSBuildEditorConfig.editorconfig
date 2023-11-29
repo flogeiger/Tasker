@@ -41,6 +41,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Tasker.MVVM.Views.MainView
 build_metadata.AdditionalFiles.TargetPath = MVVM\Views\MainView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\Views\MainView.xaml
 
+[C:/FlosStuf/Projekte/Maui Projekte/Tasker/Tasker/MVVM/Views/NewTaskView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Tasker.MVVM.Views.NewTaskView.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\NewTaskView.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\NewTaskView.xaml
+
 [C:/FlosStuf/Projekte/Maui Projekte/Tasker/Tasker/Resources/Styles/AppStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tasker.Resources.Styles.AppStyles.xaml

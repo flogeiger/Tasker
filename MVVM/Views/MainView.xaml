@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:converters ="clr-namespace:Tasker.Converters"
              x:Class="Tasker.MVVM.Views.MainView"
-             Title="MainView">
+             Title="Tasker">
 
     <ContentPage.Resources>
         <converters:ColorConverter x:Key="ColorConverter"/>
@@ -63,5 +63,10 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
         </Grid>
+        <Button
+            Grid.Row="2"
+            Clicked="Button_Clicked"
+            Style="{StaticResource CircularButton}"
+            Text="+" />
     </Grid>
 </ContentPage>
