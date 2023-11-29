@@ -12,6 +12,7 @@ namespace Tasker.MVVM.ViewModels
 	[AddINotifyPropertyChangedInterface]
 	public class MainViewModel
     {
+
 		public ObservableCollection<Category> Categories { get; set; }
 
 		public ObservableCollection<MyTask> MyTasks { get; set; }
@@ -19,6 +20,12 @@ namespace Tasker.MVVM.ViewModels
 		public MainViewModel()
 		{
 			FillData();
+			MyTasks.CollectionChanged += MyTasks_CollectionChanged;
+		}
+
+		private void MyTasks_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+		{
+			UpdateData();
 		}
 
 		private void FillData()

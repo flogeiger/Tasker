@@ -7,8 +7,8 @@
     <Grid RowDefinitions=".2*, .7*, .1*">
         <Entry
             Placeholder="Enter New Task"
-            Style="{StaticResource MyTask}"
-            Text="{Binding MyTask}"/>
+            Style="{StaticResource Task}"
+            Text="{Binding Task}"/>
         <CollectionView
             Grid.Row="1"
             Margin="15"
@@ -38,7 +38,7 @@
             HorizontalOptions="CenterAndExpand"
             Spacing="15"
             VerticalOptions="Center">
-            <Button CornerRadius="15" Text="Add Task"/>
+            <Button CornerRadius="15" Text="Add Task" Clicked="AddTaskCLicked"/>
             <Button CornerRadius="15" Text="Add Category"/>
         </HorizontalStackLayout>
     </Grid>
